@@ -1,0 +1,31 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Claude Code local settings (machine-specific, may contain secrets)
+.claude/settings.local.json
+
+# Output
+output/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

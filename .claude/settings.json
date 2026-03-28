@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "consulting-research": {
+      "command": "python",
+      "args": ["src/mcp_server.py"],
+      "env": { "TAVILY_API_KEY": "${TAVILY_API_KEY}" }
+    }
+  }
+}
